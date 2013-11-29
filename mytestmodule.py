@@ -9,5 +9,6 @@ def test_proc(x):
     """
     return x
 
-import doctest
-doctest.testmod()
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
